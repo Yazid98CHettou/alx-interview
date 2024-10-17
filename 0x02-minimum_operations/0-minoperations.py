@@ -10,12 +10,6 @@ characters in the file.
 Prototype: def minOperations(n)
 Returns an integer
 If n is impossible to achieve, return 0
-Example:
-
-n = 9
-H => Copy All => Paste => HH => Paste =>HHH =>
-Copy All => Paste => HHHHHH => Paste => HHHHHHHHH
-Number of operations: 6
 """
 def minOperations(n):
     """
@@ -29,4 +23,4 @@ def minOperations(n):
             result += x
             n /= x
         x += 1
-    return result
+    return resulit
